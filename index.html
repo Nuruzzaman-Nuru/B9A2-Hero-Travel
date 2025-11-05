@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="brand">
+                <img src="images/Group 40071 (2).png" alt="" class="brand-icon">
+                <span>Hero <span class="accent">Travel</span></span>
+            </a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav class="nav" aria-label="Primary navigation">
+                <ul class="nav-list" id="primary-nav">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>Explore Your Travel</h1>
+                <p>Discover unforgettable experiences, hidden gems, and curated adventures tailored just for you.</p>
+                <form class="search-form">
+                    <label>
+                        <span class="sr-only">Choose destination</span>
+                        <input type="text" placeholder="Where go" required>
+                    </label>
+                    <label>
+                        <span class="sr-only">Select travel type</span>
+                        <select required>
+                            <option value="">Travel Type</option>
+                            <option value="adventure">Adventure</option>
+                            <option value="relax">Relax</option>
+                            <option value="family">Family</option>
+                        </select>
+                    </label>
+                    <label>
+                        <span class="sr-only">Select date</span>
+                        <input type="date" required>
+                    </label>
+                    <button type="submit" class="btn">Find Now</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="popular-tours">
+            <div class="container popular-grid">
+                <div class="popular-copy">
+                    <h2>Our Popular Tours</h2>
+                    <p>Explore hand-selected itineraries crafted by travel experts. Each journey blends iconic landmarks with authentic local experiences.</p>
+                    <ul>
+                        <li>Immersive cultural excursions featuring local guides.</li>
+                        <li>Comfortable accommodations with stunning views.</li>
+                        <li>Flexible schedules tailored to your pace.</li>
+                    </ul>
+                    <p>Whether you crave adventure, relaxation, or a little of both, our popular tours make it easy to discover the world with confidence.</p>
+                    <button class="btn outline">Read More</button>
+                </div>
+                <div class="popular-media">
+                    <img src="images/Rectangle 4.png" alt="Mountain landscape">
+                </div>
+            </div>
+        </section>
+
+        <section class="destinations">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Choose Your Destination</h2>
+                    <p>Find the perfect place to match your wanderlust. From tropical escapes to alpine wonderlands, the world awaits.</p>
+                </div>
+                <div class="destination-grid">
+                    <article class="destination-card wide">
+                        <img src="images/Rectangle 5.png" alt="Maldives island">
+                        <span>Maldives</span>
+                    </article>
+                    <article class="destination-card">
+                        <img src="images/Rectangle 8.png" alt="Indonesia coast">
+                        <span>Indonesia</span>
+                    </article>
+                    <article class="destination-card">
+                        <img src="images/Rectangle 6.png" alt="Sri Lanka beach">
+                        <span>Sri Lanka</span>
+                    </article>
+                    <article class="destination-card">
+                        <img src="images/Rectangle 7.png" alt="North America city">
+                        <span>North America</span>
+                    </article>
+                    <article class="destination-card">
+                        <img src="images/Rectangle 9.png" alt="Kashmir mountains">
+                        <span>Kashmir</span>
+                    </article>
+                    <article class="destination-card">
+                        <img src="images/Rectangle 11.png" alt="Bangladesh river">
+                        <span>Bangladesh</span>
+                    </article>
+                    <article class="destination-card">
+                        <img src="images/Rectangle 10.png" alt="Bandarban hills">
+                        <span>Bandarban</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-us">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Choose Us</h2>
+                    <p class="section-copy">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa.</p>
+                    <p class="section-copy highlight">Sodales dictumst nec nibh pellentesque.</p>
+                </div>
+                <div class="why-grid">
+                    <article class="why-card">
+                        <img src="images/Group 39.png" alt="" aria-hidden="true">
+                        <h3>Handpicked Hotels</h3>
+                        <p>Stay in charming boutique hotels selected for comfort, character, and prime locations close to the action.</p>
+                    </article>
+                    <article class="why-card">
+                        <img src="images/Group 40.png" alt="" aria-hidden="true">
+                        <h3>World Class Service</h3>
+                        <p>From booking to the final farewell, our team provides attentive support, expert advice, and on-trip assistance.</p>
+                    </article>
+                    <article class="why-card">
+                        <img src="images/Group 40089.png" alt="" aria-hidden="true">
+                        <h3>Best Price Guarantee</h3>
+                        <p>Enjoy competitive pricing with transparent costs and exclusive savings that keep your adventure within reach.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="deals">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Deals &amp; Discounts</h2>
+                    <p>Unlock seasonal offers and limited-time upgrades designed to take your getaway further without stretching your budget.</p>
+                </div>
+
+                <div class="deal-card">
+                    <img src="images/Rectangle 8 (1).png" alt="Resort pool">
+                    <div class="deal-content">
+                        <ul class="deal-meta">
+                            <li><span class="icon-pill" aria-hidden="true">📅</span>7 Day / 6 Night</li>
+                            <li><span class="icon-pill" aria-hidden="true">👥</span>Max: 10</li>
+                            <li><span class="icon-pill" aria-hidden="true">📍</span>Malaysia</li>
+                        </ul>
+                        <h3>Tour To Santorini</h3>
+                        <p>Experience azure seas, whitewashed villages, and unforgettable sunsets with curated experiences each day.</p>
+                        <p class="price">Price: $1300 <span>$1500</span></p>
+                        <button class="btn solid">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="deal-card reverse">
+                    <img src="images/Rectangle 8 (1).png" alt="Resort pool">
+                    <div class="deal-content">
+                        <ul class="deal-meta">
+                            <li><span class="icon-pill" aria-hidden="true">📅</span>5 Day / 4 Night</li>
+                            <li><span class="icon-pill" aria-hidden="true">👥</span>Max: 8</li>
+                            <li><span class="icon-pill" aria-hidden="true">📍</span>Thailand</li>
+                        </ul>
+                        <h3>Tropical Escape</h3>
+                        <p>Dive into turquoise waters, enjoy private island picnics, and unwind with spa treatments under the palms.</p>
+                        <p class="price">Price: $980 <span>$1150</span></p>
+                        <button class="btn solid">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="deal-card">
+                    <img src="images/Rectangle 8 (1).png" alt="Resort pool">
+                    <div class="deal-content">
+                        <ul class="deal-meta">
+                            <li><span class="icon-pill" aria-hidden="true">📅</span>9 Day / 8 Night</li>
+                            <li><span class="icon-pill" aria-hidden="true">👥</span>Max: 12</li>
+                            <li><span class="icon-pill" aria-hidden="true">📍</span>Greece</li>
+                        </ul>
+                        <h3>Luxury Island Hop</h3>
+                        <p>Sail between hidden coves, dine on fresh cuisine, and soak in panoramic views from cliffside suites.</p>
+                        <p class="price">Price: $1850 <span>$2100</span></p>
+                        <button class="btn solid">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="deal-footer">
+                    <button class="btn outline">See All Packages</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="perfect-place">
+            <div class="container perfect-grid">
+                <div class="perfect-copy">
+                    <h2>A Simple Perfect Place To Get Lost</h2>
+                    <p>Take a break from the bustle and reconnect with nature. Our curated escapes slow down the pace so you can savor every moment.</p>
+                    <ul>
+                        <li>Curated nature trails and off-the-beaten-path excursions.</li>
+                        <li>Guided mindfulness sessions in serene landscapes.</li>
+                        <li>Locally sourced cuisine highlighting regional flavors.</li>
+                    </ul>
+                    <button class="btn">See More</button>
+                </div>
+                <div class="perfect-media">
+                    <img src="images/Group 13 (1) (1).png" alt="Mountain view">
+                    <div class="video-label">
+                        <p>Watch Our Mountain in Bangladesh</p>
+                    </div>
+                    <div class="video-controls" aria-hidden="true">
+                        <div class="progress">
+                            <span></span>
+                        </div>
+                        <div class="control-row">
+                            <span class="timestamp">0:00</span>
+                            <div class="control-icons">
+                                <span>⏯</span>
+                                <span>🔊</span>
+                                <span>⤢</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container newsletter-grid">
+                <div class="newsletter-form">
+                    <h2>Newsletter</h2>
+                    <p>Get your daily dose of travel inspiration, insider tips, and exclusive offers straight to your inbox.</p>
+                    <form>
+                        <label class="sr-only" for="newsletter-name">Name</label>
+                        <input type="text" id="newsletter-name" placeholder="Enter your name" required>
+                        <label class="sr-only" for="newsletter-email">Email</label>
+                        <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+                <div class="newsletter-media">
+                    <img src="images/Rectangle 7.png" alt="Mountain landscape">
+                    <div class="badge">
+                        <p>Travel.com</p>
+                        <strong>Save up to 70%</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#" class="brand">
+                <img src="images/Group 40071 (2).png" alt="" class="brand-icon">
+                <span>Hero <span class="accent">Travel</span></span>
+            </a>
+            <p class="footer-text">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M21 5.92a5.89 5.89 0 0 1-1.77.52 3.08 3.08 0 0 0 1.35-1.7 6.16 6.16 0 0 1-1.94.76A3.06 3.06 0 0 0 12 7.4a8.7 8.7 0 0 1-6.3-3.2 3.05 3.05 0 0 0 .95 4.08 3 3 0 0 1-1.39-.38v.04a3.06 3.06 0 0 0 2.45 3 3.08 3.08 0 0 1-1.38.05 3.07 3.07 0 0 0 2.86 2.13A6.15 6.15 0 0 1 3 14.56 8.68 8.68 0 0 0 7.72 16a8.66 8.66 0 0 0 8.73-9.15A6.41 6.41 0 0 0 21 5.92Z"/>
+                    </svg>
+                </a>
+                <a href="#" aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M13.5 8.5V7a1.7 1.7 0 0 1 1.7-1.7h1.3V2.5h-2.5A4.5 4.5 0 0 0 9.6 7v1.5H7v2.8h2.6v9.2h3.9v-9.2h2.6L16.6 8.5h-3.1Z"/>
+                    </svg>
+                </a>
+                <a href="#" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M16.6 3H7.4A4.4 4.4 0 0 0 3 7.4v9.2A4.4 4.4 0 0 0 7.4 21h9.2a4.4 4.4 0 0 0 4.4-4.4V7.4A4.4 4.4 0 0 0 16.6 3Zm2.2 13.6a2.2 2.2 0 0 1-2.2 2.2H7.4a2.2 2.2 0 0 1-2.2-2.2V7.4a2.2 2.2 0 0 1 2.2-2.2h9.2a2.2 2.2 0 0 1 2.2 2.2Zm-6.4-7.8a4 4 0 1 0 4 4 4 4 0 0 0-4-4Zm0 6.3a2.3 2.3 0 1 1 2.3-2.3 2.29 2.29 0 0 1-2.3 2.3Zm4.2-7.9a1 1 0 1 1-1-1 1 1 0 0 1 1 1Z"/>
+                    </svg>
+                </a>
+                <a href="#" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 2.5a9.5 9.5 0 0 0-3 18.5c.46.09.62-.2.62-.44v-1.54c-2.53.56-3.06-1.22-3.06-1.22a2.41 2.41 0 0 0-1-1.32c-.82-.56.06-.55.06-.55a1.9 1.9 0 0 1 1.39 1 1.92 1.92 0 0 0 2.63.75 1.92 1.92 0 0 1 .57-1.21c-2-.22-4.08-1-4.08-4.34A3.4 3.4 0 0 1 7 9.16a3.15 3.15 0 0 1 .08-2.32s.75-.24 2.46.91a8.46 8.46 0 0 1 4.5 0c1.71-1.15 2.46-.91 2.46-.91a3.15 3.15 0 0 1 .08 2.32 3.4 3.4 0 0 1 .9 2.35c0 3.35-2.08 4.12-4.07 4.34a2.16 2.16 0 0 1 .62 1.68v2.49c0 .24.16.53.63.44A9.5 9.5 0 0 0 12 2.5Z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer-divider" role="presentation"></div>
+            &copy; 2025 Made by <a href="https://nurzamanportfolio.vercel.app/" target="_blank" rel="noopener noreferrer"><span class="btn">Nurzaman</span></a>
+        </div>
+    </footer>
+</body>
+</html>
