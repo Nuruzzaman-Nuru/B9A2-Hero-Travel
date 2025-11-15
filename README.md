@@ -2,7 +2,6 @@
 
 Hero Travel is a modern and innovative travel booking platform that helps users discover destinations, get smart AI-based recommendations, and book travel packages easily.
 
-![Hero Travel Homepage Screenshot](path/to/your/homepage-image.jpg)
 
 ## 🌏 Explore Your Travel
 
@@ -34,23 +33,10 @@ Destinations like Maldives, Indonesia, Srilanka, North America, Kashmir, Banglad
 
 ---
 
-## 🖥️ Tech Stack
-- Frontend: React.js, CSS Framework (Tailwind/Bootstrap)
-- Backend/API: Node.js, Express.js (optional)
-- Database: MongoDB (optional)
-- Authentication: Email/password, Social signup (if used)
-- Deployment: Netlify/Vercel (Frontend), Render/Heroku (Backend)
-
----
 
 
 ---
 
-## 🤝 Contribution
-
-Pull requests and feedback are welcome. Please create an issue if you find a bug or have a suggestion.
-
----
 
 ## 📜 License
 
